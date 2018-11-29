@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="green">#1aae18</color>
+    <color name="green_down">#058703</color>
+    <color name="unified">#FF9D16</color>
+    <color name="unified_down">#b76b02</color>
+    <color name="black_zhuye">#333333</color>
+    <color name="bj_huishe">#e9e9e9</color>
+</resources>

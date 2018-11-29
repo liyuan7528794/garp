@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/head_RL"
+        style="@style/MainHeaderBg" >
+
+        <ImageView
+            android:id="@+id/head_left_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:visibility="invisible"
+            android:layout_centerVertical="true"
+            style="@style/MainHeaderLeftButton" />
+
+        <TextView
+            android:id="@+id/head_content_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="invisible"
+            style="@style/MainHeaderContent"/>
+<!--             android:shadowColor="#ff000000"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="1" -->
+       <Button
+	        android:id="@+id/head_change_button"
+	        android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/head_content_title"
+            android:visibility="invisible"
+            android:layout_marginLeft="20dip"
+            style="@style/MainHeaderChangeButton"/>
+        <Button
+            android:id="@+id/head_right_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:visibility="invisible"
+            android:textColor="@color/white"
+            style="@style/HeaderRightButton"
+            android:padding="5dp" />
+    </RelativeLayout>

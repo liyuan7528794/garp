@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10.0dip"
+    android:paddingRight="10.0dip" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50.0dip"
+        android:background="@drawable/dialog_title_bg"
+        android:gravity="center_vertical"
+        android:paddingLeft="10.0dip"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_dialog_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/exit_button"
+            android:textColor="#ffffffff"
+            android:textSize="20.0sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/exitOk02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_bg"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_exit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="10.0dip"
+            android:text="@string/alert_dialog_tip"
+            android:textColor="#ff000000"
+            android:textSize="18.0sp" />
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/osx_exit_view_item" />
+    </LinearLayout>
+
+</LinearLayout>

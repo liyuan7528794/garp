@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+style="@style/MainHeaderBg"
+android:layout_width="match_parent"
+android:layout_height="wrap_content" >
+
+<Button
+    android:id="@+id/headLeftButton"
+    style="@style/MainHeaderLeftButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_centerVertical="true"
+    android:visibility="invisible" />
+
+<ImageView
+    android:id="@+id/headLogo"
+    style="@style/MainHeaderLogo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true" />
+
+<Button
+    android:id="@+id/headChangebutton"
+    style="@style/MainHeaderChangeButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_centerVertical="true"
+    android:layout_toLeftOf="@+id/selectImage"
+    android:paddingLeft="5.0dip"
+    android:visibility="invisible" />
+
+<ImageView
+    android:id="@+id/selectImage"
+    style="@style/MainHeaderSelect"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_centerVertical="true"
+    android:layout_marginRight="10dip"
+    android:visibility="invisible" />
+
+<Button
+    android:id="@+id/headRightButton"
+    style="@style/MainHeaderRightButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_centerVertical="true"
+    android:layout_marginRight="10dip"
+    android:textColor="@color/white"
+    android:visibility="invisible" />
+
+</RelativeLayout>
